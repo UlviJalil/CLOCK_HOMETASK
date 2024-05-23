@@ -1,0 +1,19 @@
+{
+  "name": "scss",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:scss": "sass styles/scss styles/css",
+    "compile:scss:watch": "sass styles/scss:styles/css --watch",
+    "compile:scss:compress": "sass styles/scss:styles/css --style compressed",
+    "compile:sass:watch:compress": "sass styles/scss:styles/css --watch --style compressed",
+    "compile:sass:watch:compress:pervin_edition": "sass styles/scss:styles/css --watch --style compressed"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cowsay": "^1.6.0",
+    "sass": "^1.75.0"
+  }
+}
